@@ -1,0 +1,8 @@
+step running the script :
+
+1. git clone git@github.com:buluxan/sawitpro.git
+2. running script for dummy data sawit_pro_generate_dummy_data.py it will insert data into sample.log
+3. running sawit_pro_convert_into_json.py to convert sample.log into json file => log_metrics.json
+4.  running docker-compose.yml ELK stack for populate logging json
+5. running docker run --rm --network=host -v "$(pwd)/filebeat.yml:/usr/share/filebeat/filebeat.yml" -v "$(pwd)/log_metrics.json:/tmp/log_metrics.json" docker.elastic.co/beats/filebeat:7.15.0
+6. change ip container 172.18.0.3 in filebeat.yml using your own ip container
