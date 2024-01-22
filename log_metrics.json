@@ -1,0 +1,910 @@
+{
+    "timestamp": "2024-01-21T17:43:28.718075",
+    "log_metrics": {
+        "error_count": 66,
+        "average_response_time_ms": 541.54,
+        "total_transactions": 100
+    },
+    "error_logs": [
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 400,
+            "response_time_ms": 514,
+            "user_id": "2",
+            "transaction_id": "6141",
+            "additional_info": "Additional info for transaction 6141"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_red",
+            "status_code": 200,
+            "response_time_ms": 402,
+            "user_id": "1",
+            "transaction_id": "6340",
+            "additional_info": "Additional info for transaction 6340"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 400,
+            "response_time_ms": 318,
+            "user_id": "1",
+            "transaction_id": "1353",
+            "additional_info": "Additional info for transaction 1353"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 500,
+            "response_time_ms": 971,
+            "user_id": "3",
+            "transaction_id": "1237",
+            "additional_info": "Additional info for transaction 1237"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 200,
+            "response_time_ms": 445,
+            "user_id": "1",
+            "transaction_id": "6519",
+            "additional_info": "Additional info for transaction 6519"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 400,
+            "response_time_ms": 499,
+            "user_id": "1",
+            "transaction_id": "4514",
+            "additional_info": "Additional info for transaction 4514"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 500,
+            "response_time_ms": 982,
+            "user_id": "1",
+            "transaction_id": "9497",
+            "additional_info": "Additional info for transaction 9497"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 500,
+            "response_time_ms": 889,
+            "user_id": "2",
+            "transaction_id": "2860",
+            "additional_info": "Additional info for transaction 2860"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 500,
+            "response_time_ms": 845,
+            "user_id": "2",
+            "transaction_id": "7422",
+            "additional_info": "Additional info for transaction 7422"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 400,
+            "response_time_ms": 354,
+            "user_id": "1",
+            "transaction_id": "8577",
+            "additional_info": "Additional info for transaction 8577"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 500,
+            "response_time_ms": 893,
+            "user_id": "1",
+            "transaction_id": "6067",
+            "additional_info": "Additional info for transaction 6067"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 500,
+            "response_time_ms": 122,
+            "user_id": "2",
+            "transaction_id": "8934",
+            "additional_info": "Additional info for transaction 8934"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 200,
+            "response_time_ms": 460,
+            "user_id": "1",
+            "transaction_id": "9794",
+            "additional_info": "Additional info for transaction 9794"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 200,
+            "response_time_ms": 246,
+            "user_id": "1",
+            "transaction_id": "7149",
+            "additional_info": "Additional info for transaction 7149"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_red",
+            "status_code": 500,
+            "response_time_ms": 8,
+            "user_id": "1",
+            "transaction_id": "7946",
+            "additional_info": "Additional info for transaction 7946"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_red",
+            "status_code": 500,
+            "response_time_ms": 519,
+            "user_id": "1",
+            "transaction_id": "1303",
+            "additional_info": "Additional info for transaction 1303"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 200,
+            "response_time_ms": 325,
+            "user_id": "2",
+            "transaction_id": "5882",
+            "additional_info": "Additional info for transaction 5882"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 200,
+            "response_time_ms": 606,
+            "user_id": "2",
+            "transaction_id": "4929",
+            "additional_info": "Additional info for transaction 4929"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_red",
+            "status_code": 200,
+            "response_time_ms": 849,
+            "user_id": "2",
+            "transaction_id": "5675",
+            "additional_info": "Additional info for transaction 5675"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_red",
+            "status_code": 400,
+            "response_time_ms": 186,
+            "user_id": "1",
+            "transaction_id": "5944",
+            "additional_info": "Additional info for transaction 5944"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 200,
+            "response_time_ms": 72,
+            "user_id": "1",
+            "transaction_id": "1496",
+            "additional_info": "Additional info for transaction 1496"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_red",
+            "status_code": 400,
+            "response_time_ms": 874,
+            "user_id": "2",
+            "transaction_id": "5478",
+            "additional_info": "Additional info for transaction 5478"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 200,
+            "response_time_ms": 706,
+            "user_id": "3",
+            "transaction_id": "7729",
+            "additional_info": "Additional info for transaction 7729"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 500,
+            "response_time_ms": 759,
+            "user_id": "1",
+            "transaction_id": "8421",
+            "additional_info": "Additional info for transaction 8421"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 500,
+            "response_time_ms": 177,
+            "user_id": "1",
+            "transaction_id": "8121",
+            "additional_info": "Additional info for transaction 8121"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 200,
+            "response_time_ms": 491,
+            "user_id": "1",
+            "transaction_id": "1438",
+            "additional_info": "Additional info for transaction 1438"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 400,
+            "response_time_ms": 818,
+            "user_id": "1",
+            "transaction_id": "8697",
+            "additional_info": "Additional info for transaction 8697"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 500,
+            "response_time_ms": 975,
+            "user_id": "3",
+            "transaction_id": "9185",
+            "additional_info": "Additional info for transaction 9185"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 200,
+            "response_time_ms": 113,
+            "user_id": "3",
+            "transaction_id": "2704",
+            "additional_info": "Additional info for transaction 2704"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 500,
+            "response_time_ms": 321,
+            "user_id": "3",
+            "transaction_id": "6797",
+            "additional_info": "Additional info for transaction 6797"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 500,
+            "response_time_ms": 578,
+            "user_id": "1",
+            "transaction_id": "5592",
+            "additional_info": "Additional info for transaction 5592"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 200,
+            "response_time_ms": 993,
+            "user_id": "3",
+            "transaction_id": "2276",
+            "additional_info": "Additional info for transaction 2276"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 500,
+            "response_time_ms": 67,
+            "user_id": "3",
+            "transaction_id": "9959",
+            "additional_info": "Additional info for transaction 9959"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 200,
+            "response_time_ms": 222,
+            "user_id": "3",
+            "transaction_id": "8942",
+            "additional_info": "Additional info for transaction 8942"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 400,
+            "response_time_ms": 701,
+            "user_id": "1",
+            "transaction_id": "5161",
+            "additional_info": "Additional info for transaction 5161"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 500,
+            "response_time_ms": 206,
+            "user_id": "3",
+            "transaction_id": "9961",
+            "additional_info": "Additional info for transaction 9961"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_red",
+            "status_code": 400,
+            "response_time_ms": 30,
+            "user_id": "2",
+            "transaction_id": "3632",
+            "additional_info": "Additional info for transaction 3632"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 200,
+            "response_time_ms": 934,
+            "user_id": "2",
+            "transaction_id": "4143",
+            "additional_info": "Additional info for transaction 4143"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 400,
+            "response_time_ms": 293,
+            "user_id": "2",
+            "transaction_id": "1126",
+            "additional_info": "Additional info for transaction 1126"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 200,
+            "response_time_ms": 568,
+            "user_id": "1",
+            "transaction_id": "6525",
+            "additional_info": "Additional info for transaction 6525"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 200,
+            "response_time_ms": 501,
+            "user_id": "1",
+            "transaction_id": "7785",
+            "additional_info": "Additional info for transaction 7785"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 500,
+            "response_time_ms": 245,
+            "user_id": "1",
+            "transaction_id": "2961",
+            "additional_info": "Additional info for transaction 2961"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_red",
+            "status_code": 400,
+            "response_time_ms": 758,
+            "user_id": "3",
+            "transaction_id": "1923",
+            "additional_info": "Additional info for transaction 1923"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 400,
+            "response_time_ms": 631,
+            "user_id": "2",
+            "transaction_id": "6782",
+            "additional_info": "Additional info for transaction 6782"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_red",
+            "status_code": 200,
+            "response_time_ms": 772,
+            "user_id": "2",
+            "transaction_id": "5447",
+            "additional_info": "Additional info for transaction 5447"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 500,
+            "response_time_ms": 941,
+            "user_id": "1",
+            "transaction_id": "4979",
+            "additional_info": "Additional info for transaction 4979"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 500,
+            "response_time_ms": 678,
+            "user_id": "1",
+            "transaction_id": "5096",
+            "additional_info": "Additional info for transaction 5096"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 500,
+            "response_time_ms": 809,
+            "user_id": "2",
+            "transaction_id": "2946",
+            "additional_info": "Additional info for transaction 2946"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 200,
+            "response_time_ms": 288,
+            "user_id": "2",
+            "transaction_id": "8215",
+            "additional_info": "Additional info for transaction 8215"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 500,
+            "response_time_ms": 865,
+            "user_id": "3",
+            "transaction_id": "7915",
+            "additional_info": "Additional info for transaction 7915"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 500,
+            "response_time_ms": 842,
+            "user_id": "3",
+            "transaction_id": "5774",
+            "additional_info": "Additional info for transaction 5774"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 400,
+            "response_time_ms": 12,
+            "user_id": "2",
+            "transaction_id": "9859",
+            "additional_info": "Additional info for transaction 9859"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_red",
+            "status_code": 400,
+            "response_time_ms": 188,
+            "user_id": "2",
+            "transaction_id": "8623",
+            "additional_info": "Additional info for transaction 8623"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 500,
+            "response_time_ms": 345,
+            "user_id": "3",
+            "transaction_id": "4009",
+            "additional_info": "Additional info for transaction 4009"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 400,
+            "response_time_ms": 784,
+            "user_id": "2",
+            "transaction_id": "9614",
+            "additional_info": "Additional info for transaction 9614"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 200,
+            "response_time_ms": 662,
+            "user_id": "3",
+            "transaction_id": "9743",
+            "additional_info": "Additional info for transaction 9743"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 500,
+            "response_time_ms": 206,
+            "user_id": "2",
+            "transaction_id": "5927",
+            "additional_info": "Additional info for transaction 5927"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 500,
+            "response_time_ms": 595,
+            "user_id": "2",
+            "transaction_id": "2982",
+            "additional_info": "Additional info for transaction 2982"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 200,
+            "response_time_ms": 412,
+            "user_id": "2",
+            "transaction_id": "4123",
+            "additional_info": "Additional info for transaction 4123"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_red",
+            "status_code": 200,
+            "response_time_ms": 14,
+            "user_id": "3",
+            "transaction_id": "1477",
+            "additional_info": "Additional info for transaction 1477"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 200,
+            "response_time_ms": 587,
+            "user_id": "3",
+            "transaction_id": "1199",
+            "additional_info": "Additional info for transaction 1199"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 400,
+            "response_time_ms": 776,
+            "user_id": "2",
+            "transaction_id": "4047",
+            "additional_info": "Additional info for transaction 4047"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 500,
+            "response_time_ms": 89,
+            "user_id": "3",
+            "transaction_id": "2877",
+            "additional_info": "Additional info for transaction 2877"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 200,
+            "response_time_ms": 159,
+            "user_id": "3",
+            "transaction_id": "4039",
+            "additional_info": "Additional info for transaction 4039"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_red",
+            "status_code": 400,
+            "response_time_ms": 459,
+            "user_id": "3",
+            "transaction_id": "1246",
+            "additional_info": "Additional info for transaction 1246"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_red",
+            "status_code": 400,
+            "response_time_ms": 655,
+            "user_id": "1",
+            "transaction_id": "1315",
+            "additional_info": "Additional info for transaction 1315"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_red",
+            "status_code": 200,
+            "response_time_ms": 678,
+            "user_id": "1",
+            "transaction_id": "9490",
+            "additional_info": "Additional info for transaction 9490"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 400,
+            "response_time_ms": 709,
+            "user_id": "2",
+            "transaction_id": "1558",
+            "additional_info": "Additional info for transaction 1558"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_red",
+            "status_code": 200,
+            "response_time_ms": 408,
+            "user_id": "3",
+            "transaction_id": "7973",
+            "additional_info": "Additional info for transaction 7973"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_red",
+            "status_code": 500,
+            "response_time_ms": 990,
+            "user_id": "3",
+            "transaction_id": "2226",
+            "additional_info": "Additional info for transaction 2226"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_red",
+            "status_code": 200,
+            "response_time_ms": 369,
+            "user_id": "1",
+            "transaction_id": "8471",
+            "additional_info": "Additional info for transaction 8471"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 200,
+            "response_time_ms": 724,
+            "user_id": "1",
+            "transaction_id": "3714",
+            "additional_info": "Additional info for transaction 3714"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_red",
+            "status_code": 400,
+            "response_time_ms": 743,
+            "user_id": "1",
+            "transaction_id": "9220",
+            "additional_info": "Additional info for transaction 9220"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 200,
+            "response_time_ms": 165,
+            "user_id": "2",
+            "transaction_id": "4576",
+            "additional_info": "Additional info for transaction 4576"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 500,
+            "response_time_ms": 636,
+            "user_id": "1",
+            "transaction_id": "5936",
+            "additional_info": "Additional info for transaction 5936"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 400,
+            "response_time_ms": 933,
+            "user_id": "2",
+            "transaction_id": "7313",
+            "additional_info": "Additional info for transaction 7313"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 500,
+            "response_time_ms": 523,
+            "user_id": "2",
+            "transaction_id": "8100",
+            "additional_info": "Additional info for transaction 8100"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_red",
+            "status_code": 500,
+            "response_time_ms": 780,
+            "user_id": "3",
+            "transaction_id": "9206",
+            "additional_info": "Additional info for transaction 9206"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_red",
+            "status_code": 500,
+            "response_time_ms": 921,
+            "user_id": "3",
+            "transaction_id": "4578",
+            "additional_info": "Additional info for transaction 4578"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 500,
+            "response_time_ms": 749,
+            "user_id": "3",
+            "transaction_id": "6937",
+            "additional_info": "Additional info for transaction 6937"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 200,
+            "response_time_ms": 881,
+            "user_id": "1",
+            "transaction_id": "2660",
+            "additional_info": "Additional info for transaction 2660"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 400,
+            "response_time_ms": 809,
+            "user_id": "3",
+            "transaction_id": "9749",
+            "additional_info": "Additional info for transaction 9749"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 500,
+            "response_time_ms": 921,
+            "user_id": "2",
+            "transaction_id": "8308",
+            "additional_info": "Additional info for transaction 8308"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 400,
+            "response_time_ms": 783,
+            "user_id": "2",
+            "transaction_id": "7486",
+            "additional_info": "Additional info for transaction 7486"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_red",
+            "status_code": 500,
+            "response_time_ms": 455,
+            "user_id": "1",
+            "transaction_id": "1396",
+            "additional_info": "Additional info for transaction 1396"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 200,
+            "response_time_ms": 855,
+            "user_id": "3",
+            "transaction_id": "5631",
+            "additional_info": "Additional info for transaction 5631"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_red",
+            "status_code": 500,
+            "response_time_ms": 861,
+            "user_id": "1",
+            "transaction_id": "8653",
+            "additional_info": "Additional info for transaction 8653"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 500,
+            "response_time_ms": 400,
+            "user_id": "3",
+            "transaction_id": "8329",
+            "additional_info": "Additional info for transaction 8329"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_red",
+            "status_code": 200,
+            "response_time_ms": 725,
+            "user_id": "1",
+            "transaction_id": "5439",
+            "additional_info": "Additional info for transaction 5439"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_red",
+            "status_code": 500,
+            "response_time_ms": 334,
+            "user_id": "3",
+            "transaction_id": "4025",
+            "additional_info": "Additional info for transaction 4025"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 500,
+            "response_time_ms": 600,
+            "user_id": "1",
+            "transaction_id": "7921",
+            "additional_info": "Additional info for transaction 7921"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 200,
+            "response_time_ms": 303,
+            "user_id": "1",
+            "transaction_id": "5643",
+            "additional_info": "Additional info for transaction 5643"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 500,
+            "response_time_ms": 565,
+            "user_id": "1",
+            "transaction_id": "4149",
+            "additional_info": "Additional info for transaction 4149"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 200,
+            "response_time_ms": 99,
+            "user_id": "1",
+            "transaction_id": "6092",
+            "additional_info": "Additional info for transaction 6092"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_red",
+            "status_code": 400,
+            "response_time_ms": 197,
+            "user_id": "2",
+            "transaction_id": "9580",
+            "additional_info": "Additional info for transaction 9580"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_red",
+            "status_code": 200,
+            "response_time_ms": 490,
+            "user_id": "3",
+            "transaction_id": "7945",
+            "additional_info": "Additional info for transaction 7945"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_red",
+            "status_code": 400,
+            "response_time_ms": 553,
+            "user_id": "3",
+            "transaction_id": "9272",
+            "additional_info": "Additional info for transaction 9272"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_blue",
+            "status_code": 400,
+            "response_time_ms": 824,
+            "user_id": "3",
+            "transaction_id": "3231",
+            "additional_info": "Additional info for transaction 3231"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_red",
+            "status_code": 500,
+            "response_time_ms": 317,
+            "user_id": "3",
+            "transaction_id": "5148",
+            "additional_info": "Additional info for transaction 5148"
+        },
+        {
+            "timestamp": "2024-01-21 17:36:36",
+            "service_name": "svc_pink",
+            "status_code": 500,
+            "response_time_ms": 250,
+            "user_id": "2",
+            "transaction_id": "2652",
+            "additional_info": "Additional info for transaction 2652"
+        }
+    ]
+}

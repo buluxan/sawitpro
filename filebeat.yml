@@ -1,0 +1,6 @@
+filebeat.inputs:
+  - type: log
+    paths:
+      - /tmp/log_metrics.json
+output.logstash:
+  hosts: ["172.18.0.3:5044"]
